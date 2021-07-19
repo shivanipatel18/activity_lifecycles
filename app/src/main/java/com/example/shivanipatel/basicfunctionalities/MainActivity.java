@@ -1,4 +1,4 @@
-package com.example.shivanipatel.activitylifecycledemo;
+package com.example.shivanipatel.basicfunctionalities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

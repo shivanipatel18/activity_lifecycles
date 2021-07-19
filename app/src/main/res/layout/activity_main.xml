@@ -17,7 +17,7 @@
         android:id="@+id/btnDialog"/>
 
 <fragment
-    android:name="com.example.shivanipatel.activitylifecycledemo.fragmentClass"
+    android:name="com.example.shivanipatel.basicfunctionalities.fragmentClass"
     android:id="@+id/fragment"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>

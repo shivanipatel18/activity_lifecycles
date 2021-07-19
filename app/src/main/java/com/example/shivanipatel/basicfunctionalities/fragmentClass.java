@@ -1,4 +1,4 @@
-package com.example.shivanipatel.activitylifecycledemo;
+package com.example.shivanipatel.basicfunctionalities;
 
 import android.content.Context;
 import android.os.Bundle;
