@@ -2,6 +2,7 @@ package com.example.shivanipatel.basicfunctionalities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -10,7 +11,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnDialog,btnMultiple;
+    Button btnDialog,btnMultiple, btnItemDetail;
     String msg= "Activity Life Cycle";
 
     @Override
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Log.e(msg, "OnCreate was called");
 
         btnDialog=(Button)findViewById(R.id.btnDialog);
+        btnItemDetail = findViewById(R.id.btnItemDetail);
+
         btnDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnItemDetail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ItemListActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

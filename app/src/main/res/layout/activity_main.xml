@@ -16,11 +16,13 @@
         android:textSize="20dp"
         android:id="@+id/btnDialog"/>
 
-<fragment
-    android:name="com.example.shivanipatel.basicfunctionalities.fragmentClass"
-    android:id="@+id/fragment"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Detail Activity"
+        android:textSize="20dp"
+        android:id="@+id/btnItemDetail"/>
+
 
 
 
